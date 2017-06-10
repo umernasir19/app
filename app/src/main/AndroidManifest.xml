@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.hafizumerbinnasir.appointadoctor">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-sdk android:maxSdkVersion="22" />
+
+    <application
+
+            android:name="android.support.multidex.MultiDexApplication"
+            android:allowBackup="true"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home">
+        </activity>
+        <activity
+                android:name=".Categories"
+                android:label="Categories"
+                android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.audiologist.Dr_amtullah">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.audiologist.Dr_tahira_aleem">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.audiologist.DR_ABDUL_LATIF">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.audiologist.DR_MEHBOOB_AHMED">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.audiologist.DR_RASHIDA_HIRANI">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.audiologist.Dr_Akmal_mustufa">
+        </activity>
+        <activity
+                android:name="com.example.hafizumerbinnasir.audiologist.Audiologist"
+                android:label="Audiologist"
+                android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.cardiologist.Cardiologist"
+                  android:label="Cardiologist"
+                  android:theme="@style/Theme.AppCompat"
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.cardiologist.Dr_Arshad_Ali_Shah">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.cardiologist.Dr_Atif_Ahmed_Khan">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.cardiologist.Dr_saeed_Ahmed">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.cardiologist.Dr_Ahmed_Salman_khan">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.cardiologist.Dr_Mansoor_Ahmed">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.cardiologist.Dr_Nadeem_RIzvi">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.chestphysician.Chest_Physician"
+                  android:label="ChestPhysician"
+                  android:theme="@style/Theme.AppCompat"
+
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.chestphysician.Dr_Zahid_Hussain">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.chestphysician.Dr_Uzma">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.chestphysician.Dr_Bilal_Salahudin">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.chestphysician.Dr_Asif_Asghar">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.dentalsurgeon.Dental_Surgeon"
+                  android:label="Dental Surgeon"
+                  android:theme="@style/Theme.AppCompat"
+
+
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.dentalsurgeon.Dr_Sana_Zain">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.dentalsurgeon.Dr_Mehreen">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.dentalsurgeon.Dr_Sana_Ahmed">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.dentalsurgeon.Dr_Omair_Majeed">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.dentalsurgeon.Dr_Aqeel_Ahmed">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.dermatologist.Dermatologist"
+                  android:label="Dermatologist"
+                  android:theme="@style/Theme.AppCompat"
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.dermatologist.Dr_Sher_Mohammad">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.dermatologist.Dr_Abid_Mallick">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.dermatologist.Dr_Mirza_asad_kazim">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.dermatologist.Dr_S_M_Rizwan">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.dermatologist.Dr_Rabb">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.Debiatologist.Diabetologist"
+
+                  android:label="Diabetologist"
+                  android:theme="@style/Theme.AppCompat"
+
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.Debiatologist.Dr_Mustufa_Jabir">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.Debiatologist.Dr_Asma_Maqsood">
+        </activity>
+        <activity
+                android:name=".Ambulance"
+                android:label="Ambulance"
+                android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.eNDOCRINOLOGIST.ENDOCRINOLOGIST"
+                  android:label="Encrinologist"
+                  android:theme="@style/Theme.AppCompat"
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.ent.ENT"
+                  android:label="Ent"
+                  android:theme="@style/Theme.AppCompat"
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.ent.Dr_ismail_hurani">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.ent.Dr_Iqbal_Hussain">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.ent.Dr__Iqbal_qayum">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.eyesourgen.Eye_Sourgen"
+                  android:label="Eye surgeon"
+                  android:theme="@style/Theme.AppCompat"
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.eyesourgen.Dr_Syed_Asad">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.eyesourgen.Dr_Inayatullah">
+        </activity>
+        <activity android:name=".About_Us">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.GASTROENTEROLOGIST.GASTROENTEROLOGIST"
+
+                  android:label="Gastroentrologist"
+                  android:theme="@style/Theme.AppCompat"
+
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.GASTROENTEROLOGIST.Faisal_Ziauddin">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.GASTROENTEROLOGIST.Shahid_Mehmod">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.GASTROENTEROLOGIST.Rajesh_kumar">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.generalphysician.General_Physician"
+                  android:label="Generel Phsician"
+                  android:theme="@style/Theme.AppCompat"
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.generalphysician.Farhat_Jalil">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.generalphysician.Dr_Mumtaz_Manzor">
+        </activity>
+        <activity android:name=".SignUp">
+        </activity>
+        <activity android:name=".Login">
+        </activity>
+        <activity android:name=".AfterSplash">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.generalphysician.Dr_Maria_Shabbir">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.gynacologist.Gynacologist"
+
+                  android:label="Gyneacologist"
+                  android:theme="@style/Theme.AppCompat"
+
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.gynacologist.Rubina_Tahir">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.gynacologist.Syeda_Rabia">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.gynacologist.Farheen_Sheikh">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.nephrologist.Nephrologist"
+                  android:label="Nephrologist"
+                  android:theme="@style/Theme.AppCompat"
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.neurosurgeon.Neurosureon"
+                  android:label="Neurosurgeon"
+                  android:theme="@style/Theme.AppCompat"
+
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.neurosurgeon.Dr_Ghazanfar_Tahir">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.neurologist.Neurologist"
+                  android:label="Neurologist"
+                  android:theme="@style/Theme.AppCompat"
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.neurologist.Wasim_akhter">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.neurologist.Sadaf_Iqbal">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.neurologist.Amir_Umer">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.nephrologist.Asifa_Khurram"
+                  android:label="Nephrologist"
+                  android:theme="@style/Theme.AppCompat"
+
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.nephrologist.Khuram_Daniyal">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.orthopadic.Orthopadic"
+                  android:label="Orthopadic"
+                  android:theme="@style/Theme.AppCompat"
+
+
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.orthopadic.Itat_Hussain">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.orthopadic.Amir_Jamil">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.orthopadic.Saeed_Alam">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.pediatrician.Pediatrician"
+                  android:label="Pediatrician"
+                  android:theme="@style/Theme.AppCompat"
+
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.pediatrician.Dr_Riffat">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.pediatrician.Dr_Masroor">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.pediatrician.Dr_Farrukh">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.physiotherapist.Physiotherapist"
+
+                  android:label="Phsiotherapist"
+                  android:theme="@style/Theme.AppCompat"
+
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.physiotherapist.Wasif_ali">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.physiotherapist.Hina">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.physiotherapist.Hira">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.psychiatrist.Psychiatrist"
+
+                  android:label="Psychiatrist"
+                  android:theme="@style/Theme.AppCompat"
+        >
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.psychiatrist.Dr_Sameeha_Aleem">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.psychiatrist.Dr_Washdev">
+        </activity>
+    </application>
+
+</manifest>

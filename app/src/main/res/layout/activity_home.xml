@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.hafizumerbinnasir.appointadoctor.Splash">
+    >
+
+
+<LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/activity_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="#fff"
+        tools:context="com.example.hafizumerbinnasir.appointadoctor.Home">
+
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@drawable/home"
+        android:layout_height="400dp"
+        android:id="@+id/imagehome"
+        android:layout_weight="0.7"
+    >
+
+
+    </ImageView>
+
+    <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:id="@+id/homebutton1"
+            android:text="@string/app_name"
+            android:onClick="change"
+    />
+
+
+
+
+
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/homebutton2"
+            android:text="Call An Ambulance"
+            android:onClick="change2"
+
+    />
+
+
+
+    <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:id="@+id/Add"
+            android:text="Add A Doctor"
+            android:onClick="change4"
+    />
+
+    <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:id="@+id/AboutUs"
+            android:text="About Us"
+            android:onClick="change3"
+    />
+
+</LinearLayout>
+
+</ScrollView>

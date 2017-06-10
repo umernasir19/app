@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.hafizumerbinnasir.appointadoctor.Splash">
+>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="56dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+    >
+
+        <ImageView android:src="@drawable/hhh"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginBottom="24dp"
+                   android:layout_gravity="center_horizontal" />
+
+        <!--  Name Label -->
+        <!--<android.support.design.widget.TextInputLayout />-->
+
+
+
+        <!--&lt;!&ndash; Email Label &ndash;&gt;-->
+        <!--<android.support.design.widget.TextInputLayout/>-->
+        <TextView
+                android:width="20dp"
+                android:height="20dp"
+                android:text="Enter Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#232323"/>
+
+        <EditText
+                android:id="@+id/input_emailID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textColor="#232323"
+                android:textColorHint="#ffffff" />
+
+
+        <!-- Password Label -->
+        <!--<android.support.design.widget.TextInputLayout/>-->
+        <TextView
+                android:width="20dp"
+                android:height="20dp"
+                android:text="Enter Specialization Degree And PMDC Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#232323"
+        />
+
+        <EditText
+                android:id="@+id/input_passwordID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E.g Specialist in,MBBS ,PMDC Number"
+                android:inputType="text"
+                android:textColor="#232323"
+                android:textColorHint="#ffffff" />
+
+        <TextView
+                android:width="20dp"
+                android:height="20dp"
+                android:text="Enter Location And Timining"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#232323"
+        />
+
+        <EditText
+                android:id="@+id/ConfirmPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:inputType="text"
+                android:textColor="#232323"
+                android:textColorHint="#ffffff" />
+
+
+        <!-- Signup Button -->
+        <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:textColor="#fff"
+                android:onClick="change5"
+                android:background="#232323"
+                android:text="Add Doctor"
+        />
+
+    </LinearLayout>
+</ScrollView>

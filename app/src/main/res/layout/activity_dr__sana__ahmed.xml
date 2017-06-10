@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_dr_amtullah"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_weight="1"
+        tools:context="com.example.hafizumerbinnasir.appointadoctor.Categories">
+    android:weightSum="1">
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/prof"
+            android:layout_weight="0.7"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:text="\nNAME:Dr Sana Ahmed \n Qualification:BDS - RDS \n Timing:Daily Except Friday,Sunday | 3:00 PM to 4:30 PM\n Location:Saifee Hospital Block F،\t \n Saifee Road، North Nazimabad،Karachi 74700"
+            android:layout_height="320dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_weight="0.4"
+    />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Appoint"
+            android:id="@+id/call"
+
+    />
+
+
+</LinearLayout>
+
